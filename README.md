@@ -1,7 +1,14 @@
 # playMusicMicroserviceKafkaSpringCloudCassandra
-Async Microservices with Spring Boot, Spring Cloud, Apache Kafka and Cassandra
 
 Async Microservices with Spring Boot, Spring Cloud, Apache Kafka and Cassandra
+
+
+Por que o Microsoft Windows não é recomendado para utilização do Kafka
+De acordo com a própria documentação do Kafka, o Microsoft Windows não é plenamente suportado pela aplicação.
+
+Um dos principais problemas ocorre ao excluir um tópico. Após o comando para exclusão, o broker Kafka é finalizado abruptamente e permanece em estado de erro mesmo após ser reiniciado. O bug existe há anos e ainda não foi solucionado:
+
+https://issues.apache.o
 
 
 Use o Windows média player para chamar a API (crt + u - abrir URL ou URI - e digite a URL http://localhost:8080/listen/music)
